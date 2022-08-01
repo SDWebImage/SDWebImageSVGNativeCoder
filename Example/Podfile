@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SDWebImageSVGNativeCoder_Example' do
+  pod 'SDWebImageSVGNativeCoder', :path => '../'
+
+  target 'SDWebImageSVGNativeCoder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
