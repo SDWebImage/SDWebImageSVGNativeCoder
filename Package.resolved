@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage.git",
+        "state": {
+          "branch": null,
+          "revision": "3e48cb68d8e668d146dc59c73fb98cb628616236",
+          "version": "5.13.2"
+        }
+      },
+      {
+        "package": "svgnative",
+        "repositoryURL": "https://github.com/SDWebImage/svgnative-Xcode.git",
+        "state": {
+          "branch": null,
+          "revision": "ac972d16ad9d9a8f3bc2af515b3dae6ff06dfd43",
+          "version": "0.1.0-beta"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

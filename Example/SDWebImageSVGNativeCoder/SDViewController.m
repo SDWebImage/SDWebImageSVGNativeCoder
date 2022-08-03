@@ -7,6 +7,7 @@
 //
 
 #import "SDViewController.h"
+#import <SDWebImageSVGNativeCoder/SDImageSVGNativeCoder.h>
 
 @interface SDViewController ()
 
@@ -17,7 +18,37 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
+    
+    SDImageSVGNativeCoder *SVGNativeCoder = [SDImageSVGNativeCoder sharedCoder];
+    [[SDImageCodersManager sharedManager] addCoder:SVGNativeCoder];
+    NSURL *svgURL = [NSURL URLWithString:@"https://d4rgq65mqvxhk.cloudfront.net/public/gift_icons/officialGift%2378548ed1-9c95-4634-b355-ca8c2a53da4f.svg"];
+    NSURL *svgURL2 = [NSURL URLWithString:@"https://s3-symbol-logo.tradingview.com/apple--big.svg"];
+    
+    CGSize screenSize = self.view.bounds.size;
+    
+    UIImageView *imageView1 = [[UIImageView alloc] init];
+    imageView1.frame = CGRectMake(0, 0, screenSize.width, screenSize.height / 2);
+    imageView1.contentMode = UIViewContentModeScaleAspectFit;
+    imageView1.clipsToBounds = YES;
+    
+    UIImageView *imageView2 = [[UIImageView alloc] init];
+    imageView2.frame = CGRectMake(0, screenSize.height / 2, screenSize.width, screenSize.height / 2);
+    imageView2.contentMode = UIViewContentModeScaleAspectFit;
+    
+    [self.view addSubview:imageView1];
+    [self.view addSubview:imageView2];
+    
+    [imageView1 sd_setImageWithURL:svgURL placeholderImage:nil options:SDWebImageRetryFailed context:@{SDWebImageContextImageThumbnailPixelSize: @(CGSizeMake(1000, 1000))} progress:nil completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
+        if (image) {
+            NSLog(@"SVG1 load success");
+        }
+    }];
+    [imageView2 sd_setImageWithURL:svgURL2 placeholderImage:nil options:SDWebImageRetryFailed context:@{SDWebImageContextImageThumbnailPixelSize: @(CGSizeMake(1000, 1000))} progress:nil completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
+        if (image) {
+            NSLog(@"SVG2 load success");
+        }
+    }];
 }
 
 - (void)didReceiveMemoryWarning

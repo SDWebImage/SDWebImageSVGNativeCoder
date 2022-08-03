@@ -1,0 +1,2 @@
+github "SDWebImage/SDWebImage" ~> 5.10
+github "SDWebImage/svgnative-Xcode" >= 0.1.0-beta

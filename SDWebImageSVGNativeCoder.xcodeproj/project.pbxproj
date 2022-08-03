@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3288E18F289A7D180008ABDF /* SDWebImageSVGNativeCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3288E189289A7D180008ABDF /* SDWebImageSVGNativeCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3288E190289A7D180008ABDF /* SDWebImageSVGNativeCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3288E189289A7D180008ABDF /* SDWebImageSVGNativeCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3288E191289A7D180008ABDF /* SDWebImageSVGNativeCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3288E189289A7D180008ABDF /* SDWebImageSVGNativeCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3288E192289A7D180008ABDF /* SDWebImageSVGNativeCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3288E189289A7D180008ABDF /* SDWebImageSVGNativeCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3288E197289A7D180008ABDF /* SDImageSVGNativeCoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3288E18B289A7D180008ABDF /* SDImageSVGNativeCoder.mm */; };
+		3288E198289A7D180008ABDF /* SDImageSVGNativeCoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3288E18B289A7D180008ABDF /* SDImageSVGNativeCoder.mm */; };
+		3288E199289A7D180008ABDF /* SDImageSVGNativeCoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3288E18B289A7D180008ABDF /* SDImageSVGNativeCoder.mm */; };
+		3288E19A289A7D180008ABDF /* SDImageSVGNativeCoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3288E18B289A7D180008ABDF /* SDImageSVGNativeCoder.mm */; };
+		3288E19B289A7D180008ABDF /* SDImageSVGNativeCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3288E18C289A7D180008ABDF /* SDImageSVGNativeCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3288E19C289A7D180008ABDF /* SDImageSVGNativeCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3288E18C289A7D180008ABDF /* SDImageSVGNativeCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3288E19D289A7D180008ABDF /* SDImageSVGNativeCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3288E18C289A7D180008ABDF /* SDImageSVGNativeCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3288E19E289A7D180008ABDF /* SDImageSVGNativeCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3288E18C289A7D180008ABDF /* SDImageSVGNativeCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3288E1A5289A7D3A0008ABDF /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3288E1A4289A7D3A0008ABDF /* SDWebImage.framework */; };
+		3288E1A9289A7D470008ABDF /* svgnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3288E1A8289A7D470008ABDF /* svgnative.framework */; };
+		3288E1B1289A80F30008ABDF /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3288E1B0289A80F30008ABDF /* boost.framework */; };
+		3288E1B4289A82F20008ABDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3288E1B3289A82F20008ABDF /* CoreGraphics.framework */; };
+		3288E1B8289A83390008ABDF /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3288E1B5289A83390008ABDF /* SDWebImage.framework */; };
+		3288E1BA289A83390008ABDF /* svgnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3288E1B6289A83390008ABDF /* svgnative.framework */; };
+		3288E1BC289A83390008ABDF /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3288E1B7289A83390008ABDF /* boost.framework */; };
+		3288E1C2289A83570008ABDF /* svgnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3288E1BF289A83570008ABDF /* svgnative.framework */; };
+		3288E1C4289A83570008ABDF /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3288E1C0289A83570008ABDF /* SDWebImage.framework */; };
+		3288E1C6289A83570008ABDF /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3288E1C1289A83570008ABDF /* boost.framework */; };
+		3288E1CC289A83650008ABDF /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3288E1C9289A83650008ABDF /* boost.framework */; };
+		3288E1CE289A83650008ABDF /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3288E1CA289A83650008ABDF /* SDWebImage.framework */; };
+		3288E1D0289A83650008ABDF /* svgnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3288E1CB289A83650008ABDF /* svgnative.framework */; };
+		3288E1D6289A836F0008ABDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3288E1D5289A836F0008ABDF /* CoreGraphics.framework */; };
+		3288E1D7289A83740008ABDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3288E1B3289A82F20008ABDF /* CoreGraphics.framework */; };
+		3288E1D9289A83EA0008ABDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3288E1D8289A83EA0008ABDF /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3288E136289A79A00008ABDF /* SDWebImageSVGNativeCoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImageSVGNativeCoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3288E152289A7ADA0008ABDF /* SDWebImageSVGNativeCoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImageSVGNativeCoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3288E15E289A7AE20008ABDF /* SDWebImageSVGNativeCoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImageSVGNativeCoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3288E16A289A7AF00008ABDF /* SDWebImageSVGNativeCoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImageSVGNativeCoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3288E189289A7D180008ABDF /* SDWebImageSVGNativeCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageSVGNativeCoder.h; sourceTree = "<group>"; };
+		3288E18B289A7D180008ABDF /* SDImageSVGNativeCoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SDImageSVGNativeCoder.mm; sourceTree = "<group>"; };
+		3288E18C289A7D180008ABDF /* SDImageSVGNativeCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageSVGNativeCoder.h; sourceTree = "<group>"; };
+		3288E1A4289A7D3A0008ABDF /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		3288E1A8289A7D470008ABDF /* svgnative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = svgnative.framework; path = Carthage/Build/iOS/svgnative.framework; sourceTree = "<group>"; };
+		3288E1B0289A80F30008ABDF /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = boost.framework; path = Carthage/Build/iOS/boost.framework; sourceTree = "<group>"; };
+		3288E1B3289A82F20008ABDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3288E1B5289A83390008ABDF /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/Mac/SDWebImage.framework; sourceTree = "<group>"; };
+		3288E1B6289A83390008ABDF /* svgnative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = svgnative.framework; path = Carthage/Build/Mac/svgnative.framework; sourceTree = "<group>"; };
+		3288E1B7289A83390008ABDF /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = boost.framework; path = Carthage/Build/Mac/boost.framework; sourceTree = "<group>"; };
+		3288E1BF289A83570008ABDF /* svgnative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = svgnative.framework; path = Carthage/Build/tvOS/svgnative.framework; sourceTree = "<group>"; };
+		3288E1C0289A83570008ABDF /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/tvOS/SDWebImage.framework; sourceTree = "<group>"; };
+		3288E1C1289A83570008ABDF /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = boost.framework; path = Carthage/Build/tvOS/boost.framework; sourceTree = "<group>"; };
+		3288E1C9289A83650008ABDF /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = boost.framework; path = Carthage/Build/watchOS/boost.framework; sourceTree = "<group>"; };
+		3288E1CA289A83650008ABDF /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/watchOS/SDWebImage.framework; sourceTree = "<group>"; };
+		3288E1CB289A83650008ABDF /* svgnative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = svgnative.framework; path = Carthage/Build/watchOS/svgnative.framework; sourceTree = "<group>"; };
+		3288E1D5289A836F0008ABDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS15.4.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		3288E1D8289A83EA0008ABDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.5.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3288E133289A79A00008ABDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3288E1D7289A83740008ABDF /* CoreGraphics.framework in Frameworks */,
+				3288E1BA289A83390008ABDF /* svgnative.framework in Frameworks */,
+				3288E1BC289A83390008ABDF /* boost.framework in Frameworks */,
+				3288E1B8289A83390008ABDF /* SDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3288E14F289A7ADA0008ABDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3288E1B4289A82F20008ABDF /* CoreGraphics.framework in Frameworks */,
+				3288E1A9289A7D470008ABDF /* svgnative.framework in Frameworks */,
+				3288E1B1289A80F30008ABDF /* boost.framework in Frameworks */,
+				3288E1A5289A7D3A0008ABDF /* SDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3288E15B289A7AE20008ABDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3288E1D6289A836F0008ABDF /* CoreGraphics.framework in Frameworks */,
+				3288E1C4289A83570008ABDF /* SDWebImage.framework in Frameworks */,
+				3288E1C6289A83570008ABDF /* boost.framework in Frameworks */,
+				3288E1C2289A83570008ABDF /* svgnative.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3288E167289A7AF00008ABDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3288E1D9289A83EA0008ABDF /* CoreGraphics.framework in Frameworks */,
+				3288E1CE289A83650008ABDF /* SDWebImage.framework in Frameworks */,
+				3288E1CC289A83650008ABDF /* boost.framework in Frameworks */,
+				3288E1D0289A83650008ABDF /* svgnative.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3288E12C289A79A00008ABDF = {
+			isa = PBXGroup;
+			children = (
+				3288E187289A7D180008ABDF /* SDWebImageSVGNativeCoder */,
+				3288E137289A79A00008ABDF /* Products */,
+				3288E1A3289A7D3A0008ABDF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3288E137289A79A00008ABDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3288E136289A79A00008ABDF /* SDWebImageSVGNativeCoder.framework */,
+				3288E152289A7ADA0008ABDF /* SDWebImageSVGNativeCoder.framework */,
+				3288E15E289A7AE20008ABDF /* SDWebImageSVGNativeCoder.framework */,
+				3288E16A289A7AF00008ABDF /* SDWebImageSVGNativeCoder.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3288E187289A7D180008ABDF /* SDWebImageSVGNativeCoder */ = {
+			isa = PBXGroup;
+			children = (
+				3288E188289A7D180008ABDF /* Classes */,
+			);
+			path = SDWebImageSVGNativeCoder;
+			sourceTree = "<group>";
+		};
+		3288E188289A7D180008ABDF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3288E189289A7D180008ABDF /* SDWebImageSVGNativeCoder.h */,
+				3288E18B289A7D180008ABDF /* SDImageSVGNativeCoder.mm */,
+				3288E18C289A7D180008ABDF /* SDImageSVGNativeCoder.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3288E1A3289A7D3A0008ABDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3288E1D5289A836F0008ABDF /* CoreGraphics.framework */,
+				3288E1D8289A83EA0008ABDF /* CoreGraphics.framework */,
+				3288E1B7289A83390008ABDF /* boost.framework */,
+				3288E1C1289A83570008ABDF /* boost.framework */,
+				3288E1B5289A83390008ABDF /* SDWebImage.framework */,
+				3288E1C0289A83570008ABDF /* SDWebImage.framework */,
+				3288E1B6289A83390008ABDF /* svgnative.framework */,
+				3288E1BF289A83570008ABDF /* svgnative.framework */,
+				3288E1C9289A83650008ABDF /* boost.framework */,
+				3288E1CA289A83650008ABDF /* SDWebImage.framework */,
+				3288E1CB289A83650008ABDF /* svgnative.framework */,
+				3288E1B3289A82F20008ABDF /* CoreGraphics.framework */,
+				3288E1B0289A80F30008ABDF /* boost.framework */,
+				3288E1A8289A7D470008ABDF /* svgnative.framework */,
+				3288E1A4289A7D3A0008ABDF /* SDWebImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3288E131289A79A00008ABDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3288E18F289A7D180008ABDF /* SDWebImageSVGNativeCoder.h in Headers */,
+				3288E19B289A7D180008ABDF /* SDImageSVGNativeCoder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3288E14D289A7ADA0008ABDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3288E190289A7D180008ABDF /* SDWebImageSVGNativeCoder.h in Headers */,
+				3288E19C289A7D180008ABDF /* SDImageSVGNativeCoder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3288E159289A7AE20008ABDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3288E191289A7D180008ABDF /* SDWebImageSVGNativeCoder.h in Headers */,
+				3288E19D289A7D180008ABDF /* SDImageSVGNativeCoder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3288E165289A7AF00008ABDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3288E192289A7D180008ABDF /* SDWebImageSVGNativeCoder.h in Headers */,
+				3288E19E289A7D180008ABDF /* SDImageSVGNativeCoder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3288E135289A79A00008ABDF /* SDWebImageSVGNativeCoder macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3288E13D289A79A00008ABDF /* Build configuration list for PBXNativeTarget "SDWebImageSVGNativeCoder macOS" */;
+			buildPhases = (
+				3288E131289A79A00008ABDF /* Headers */,
+				3288E132289A79A00008ABDF /* Sources */,
+				3288E133289A79A00008ABDF /* Frameworks */,
+				3288E134289A79A00008ABDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDWebImageSVGNativeCoder macOS";
+			productName = SDWebImageSVGNativeCoder;
+			productReference = 3288E136289A79A00008ABDF /* SDWebImageSVGNativeCoder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3288E151289A7ADA0008ABDF /* SDWebImageSVGNativeCoder iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3288E156289A7ADA0008ABDF /* Build configuration list for PBXNativeTarget "SDWebImageSVGNativeCoder iOS" */;
+			buildPhases = (
+				3288E14D289A7ADA0008ABDF /* Headers */,
+				3288E14E289A7ADA0008ABDF /* Sources */,
+				3288E14F289A7ADA0008ABDF /* Frameworks */,
+				3288E150289A7ADA0008ABDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDWebImageSVGNativeCoder iOS";
+			productName = "SDWebImageSVGNativeCoder iOS";
+			productReference = 3288E152289A7ADA0008ABDF /* SDWebImageSVGNativeCoder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3288E15D289A7AE20008ABDF /* SDWebImageSVGNativeCoder tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3288E162289A7AE20008ABDF /* Build configuration list for PBXNativeTarget "SDWebImageSVGNativeCoder tvOS" */;
+			buildPhases = (
+				3288E159289A7AE20008ABDF /* Headers */,
+				3288E15A289A7AE20008ABDF /* Sources */,
+				3288E15B289A7AE20008ABDF /* Frameworks */,
+				3288E15C289A7AE20008ABDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDWebImageSVGNativeCoder tvOS";
+			productName = "SDWebImageSVGNativeCoder tvOS";
+			productReference = 3288E15E289A7AE20008ABDF /* SDWebImageSVGNativeCoder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3288E169289A7AF00008ABDF /* SDWebImageSVGNativeCoder watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3288E16E289A7AF00008ABDF /* Build configuration list for PBXNativeTarget "SDWebImageSVGNativeCoder watchOS" */;
+			buildPhases = (
+				3288E165289A7AF00008ABDF /* Headers */,
+				3288E166289A7AF00008ABDF /* Sources */,
+				3288E167289A7AF00008ABDF /* Frameworks */,
+				3288E168289A7AF00008ABDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDWebImageSVGNativeCoder watchOS";
+			productName = "SDWebImageSVGNativeCoder watchOS";
+			productReference = 3288E16A289A7AF00008ABDF /* SDWebImageSVGNativeCoder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3288E12D289A79A00008ABDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3288E135289A79A00008ABDF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3288E151289A7ADA0008ABDF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3288E15D289A7AE20008ABDF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3288E169289A7AF00008ABDF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 3288E130289A79A00008ABDF /* Build configuration list for PBXProject "SDWebImageSVGNativeCoder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3288E12C289A79A00008ABDF;
+			productRefGroup = 3288E137289A79A00008ABDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3288E135289A79A00008ABDF /* SDWebImageSVGNativeCoder macOS */,
+				3288E151289A7ADA0008ABDF /* SDWebImageSVGNativeCoder iOS */,
+				3288E15D289A7AE20008ABDF /* SDWebImageSVGNativeCoder tvOS */,
+				3288E169289A7AF00008ABDF /* SDWebImageSVGNativeCoder watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3288E134289A79A00008ABDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3288E150289A7ADA0008ABDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3288E15C289A7AE20008ABDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3288E168289A7AF00008ABDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3288E132289A79A00008ABDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3288E197289A7D180008ABDF /* SDImageSVGNativeCoder.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3288E14E289A7ADA0008ABDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3288E198289A7D180008ABDF /* SDImageSVGNativeCoder.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3288E15A289A7AE20008ABDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3288E199289A7D180008ABDF /* SDImageSVGNativeCoder.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3288E166289A7AF00008ABDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3288E19A289A7D180008ABDF /* SDImageSVGNativeCoder.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3288E13B289A79A00008ABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		3288E13C289A79A00008ABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		3288E13E289A79A00008ABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.SDWebImageSVGNativeCoder;
+				PRODUCT_NAME = SDWebImageSVGNativeCoder;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		3288E13F289A79A00008ABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.SDWebImageSVGNativeCoder;
+				PRODUCT_NAME = SDWebImageSVGNativeCoder;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		3288E157289A7ADA0008ABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.SDWebImageSVGNativeCoder-iOS";
+				PRODUCT_NAME = SDWebImageSVGNativeCoder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3288E158289A7ADA0008ABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.SDWebImageSVGNativeCoder-iOS";
+				PRODUCT_NAME = SDWebImageSVGNativeCoder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3288E163289A7AE20008ABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.SDWebImageSVGNativeCoder-tvOS";
+				PRODUCT_NAME = SDWebImageSVGNativeCoder;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		3288E164289A7AE20008ABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.SDWebImageSVGNativeCoder-tvOS";
+				PRODUCT_NAME = SDWebImageSVGNativeCoder;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3288E16F289A7AF00008ABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.SDWebImageSVGNativeCoder-watchOS";
+				PRODUCT_NAME = SDWebImageSVGNativeCoder;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		3288E170289A7AF00008ABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.SDWebImageSVGNativeCoder-watchOS";
+				PRODUCT_NAME = SDWebImageSVGNativeCoder;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3288E130289A79A00008ABDF /* Build configuration list for PBXProject "SDWebImageSVGNativeCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3288E13B289A79A00008ABDF /* Debug */,
+				3288E13C289A79A00008ABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3288E13D289A79A00008ABDF /* Build configuration list for PBXNativeTarget "SDWebImageSVGNativeCoder macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3288E13E289A79A00008ABDF /* Debug */,
+				3288E13F289A79A00008ABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3288E156289A7ADA0008ABDF /* Build configuration list for PBXNativeTarget "SDWebImageSVGNativeCoder iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3288E157289A7ADA0008ABDF /* Debug */,
+				3288E158289A7ADA0008ABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3288E162289A7AE20008ABDF /* Build configuration list for PBXNativeTarget "SDWebImageSVGNativeCoder tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3288E163289A7AE20008ABDF /* Debug */,
+				3288E164289A7AE20008ABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3288E16E289A7AF00008ABDF /* Build configuration list for PBXNativeTarget "SDWebImageSVGNativeCoder watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3288E16F289A7AF00008ABDF /* Debug */,
+				3288E170289A7AF00008ABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3288E12D289A79A00008ABDF /* Project object */;
+}
