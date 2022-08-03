@@ -11,11 +11,17 @@ Currently SDWebImage org provide 3 kinds of SVG Coder Plugin support, here is co
 
 | Plugin Name| Vector Image | Bitmap Image | Platform | Compatibility | Dependency |
 |---|---|---|---|---|---|
-| SVGNativeCoder | NO | YES | iOS 9+ | Best and W3C standard | adobe/svg-native-viewer |
-| SVGCoder | YES | YES | iOS 13+ | OK but buggy on some SVG | Apple CoreSVG(Private) |
-| SVGKitPlugin | YES | NO | iOS 9+ | Worst, no longer maintain | SVGKit/SVGKit                   
+| [SVGNativeCoder](https://github.com/SDWebImage/SDWebImageSVGNativeCoder) | NO | YES | iOS 9+ | Best and W3C standard | adobe/svg-native-viewer |
+| [SVGCoder](https://github.com/SDWebImage/SDWebImageSVGCoder) | YES | YES | iOS 13+ | OK but buggy on some SVG | Apple CoreSVG(Private) |
+| [SVGKitPlugin](https://github.com/SDWebImage/SDWebImageSVGKitPlugin) | YES | NO | iOS 9+ | Worst, no longer maintain | SVGKit/SVGKit                   
 
-For now, I recommand to use this SVGNativeCoder for most cases, until there are any other native support on Apple platforms.
+For now, I recommand to use this SVGNativeCoder (this repo) for most cases, until there are any other native support on Apple platforms.
+
+## SVG-Native
+
+[SVG Native](https://svgwg.org/specs/svg-native/) is an upcoming specification of the SVG WG based on [SVG OpenType](https://docs.microsoft.com/en-us/typography/opentype/spec/svg).
+
+SVG Native will be a strict subset of SVG 1.1 and SVG 2.0.
 
 ## Requirements
 
