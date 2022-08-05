@@ -56,7 +56,7 @@ SDWebImageSVGNativeCoder is available through [Swift Package Manager](https://sw
 ```swift
 let package = Package(
     dependencies: [
-        .package(url: "https://github.com/SDWebImage/SDWebImageSVGNativeCoder.git", from: "1.4")
+        .package(url: "https://github.com/SDWebImage/SDWebImageSVGNativeCoder.git", from: "0.1")
     ]
 )
 ```
