@@ -29,7 +29,8 @@ let package = Package(
             path: ".",
             sources: ["SDWebImageSVGNativeCoder/Classes"],
             publicHeadersPath: "SDWebImageSVGNativeCoder/Classes",
-            cSettings: [.define("BOOST_VARIANT_DETAIL_NO_SUBSTITUTE", to: "1")]
+            cSettings: [.define("BOOST_VARIANT_DETAIL_NO_SUBSTITUTE", to: "1")],
+            linkerSettings: [.linkedLibrary("xml2")]
         )
     ],
     cLanguageStandard: .gnu11,
