@@ -39,5 +39,5 @@ This SDWebImage coder plugin, use adobe svg-native-viewer library to provide SVG
 
   s.dependency 'SDWebImage', '~> 5.10'
   s.dependency 'svgnative', '>= 0.1.0-beta'
-  s.libraries 'c++', 'xml2'
+  s.libraries = 'c++', 'xml2'
 end
