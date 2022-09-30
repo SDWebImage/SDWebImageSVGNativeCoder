@@ -41,6 +41,14 @@ it, simply add the following line to your Podfile:
 pod 'SDWebImageSVGNativeCoder'
 ```
 
+Note:
+
+It's strongly recommended to use CocoaPods v1.7+ with multiple Xcode Projects, which can avoid issues when different header file contains the same file name. This applys to all SDWebImage organization maintained repo.
+
+```ruby
+install! 'cocoapods', generate_multiple_pod_projects: true
+```
+
 #### Carthage
 
 SDWebImageSVGNativeCoder is available through [Carthage](https://github.com/Carthage/Carthage).

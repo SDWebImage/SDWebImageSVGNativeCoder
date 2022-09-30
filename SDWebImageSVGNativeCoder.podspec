@@ -34,7 +34,7 @@ This SDWebImage coder plugin, use adobe svg-native-viewer library to provide SVG
   s.source_files = 'SDWebImageSVGNativeCoder/Classes/**/*'
   s.pod_target_xcconfig = {
     'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) BOOST_VARIANT_DETAIL_NO_SUBSTITUTE=1',
-    'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/svgnative/svg-native-viewer/third_party/boost_variant_property_tree'
+    'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/svgnative/svg-native-viewer/svgnative/include ${PODS_ROOT}/svgnative/svg-native-viewer/third_party/boost_variant_property_tree'
   }
 
   s.dependency 'SDWebImage', '~> 5.10'
