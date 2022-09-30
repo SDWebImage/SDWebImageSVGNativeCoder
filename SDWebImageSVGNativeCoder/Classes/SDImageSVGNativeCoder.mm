@@ -1,6 +1,6 @@
 //
 //  SDImageSVGNativeCoder.mm
-//  SDWebImageSVGCoder
+//  SDWebImageSVGNativeCoder
 //
 //  Created by dreampiggy on 08/01/2022.
 //  Copyright (c) 2022 dreampiggy. All rights reserved.
