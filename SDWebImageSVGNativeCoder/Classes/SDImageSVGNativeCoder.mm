@@ -80,6 +80,13 @@
     
     renderer->SetGraphicsContext(ctx);
     
+#if SD_MAC
+    // Core Graphics Coordinate System convert. SDWebImage use's non-flipped one
+    // See: [NSGraphicsContext graphicsContextWithCGContext:context flipped:NO];
+    CGContextScaleCTM(ctx, 1, -1);
+    CGContextTranslateCTM(ctx, 0, -svgSize.height);
+#endif
+    
     doc->Render(svgSize.width, svgSize.height);
     
     renderer->ReleaseGraphicsContext();
