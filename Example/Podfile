@@ -1,15 +1,18 @@
 # use_frameworks!
 use_modular_headers!
 
-platform :ios, '10.0'
-
 target 'SDWebImageSVGNativeCoder_Example' do
+  platform :ios, '9.0'
   pod 'SDWebImageSVGNativeCoder', :path => '../'
-  pod 'svgnative', :git => 'https://github.com/SDWebImage/svgnative-Xcode.git', :branch => 'main', :submodules => true
+  pod 'svgnative'
 
   target 'SDWebImageSVGNativeCoder_Tests' do
     inherit! :search_paths
-
-    
   end
+end
+
+target 'SDWebImageSVGNativeCoder_Example-macOS' do
+  platform :osx, '10.15'
+  pod 'SDWebImageSVGNativeCoder', :path => '../'
+  pod 'svgnative'
 end

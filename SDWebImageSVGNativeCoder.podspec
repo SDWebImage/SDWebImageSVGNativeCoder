@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDWebImageSVGNativeCoder'
-  s.version          = '0.1.1'
+  s.version          = '0.2.0'
   s.summary          = 'SVG-Native vector image coder plugin for SDWebImage.'
 
 # This description is used to generate tags and improve search results.
@@ -38,6 +38,6 @@ This SDWebImage coder plugin, use adobe svg-native-viewer library to provide SVG
   }
 
   s.dependency 'SDWebImage', '~> 5.10'
-  s.dependency 'svgnative', '>= 0.1.0-beta'
+  s.dependency 'svgnative', '~> 0.1'
   s.libraries = 'c++', 'xml2'
 end

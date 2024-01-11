@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/SDWebImage/svgnative-Xcode.git",
         "state": {
           "branch": null,
-          "revision": "ac972d16ad9d9a8f3bc2af515b3dae6ff06dfd43",
-          "version": "0.1.0-beta"
+          "revision": "de560bb9f69bc89f4624855998148eb6e0bb8e60",
+          "version": "0.1.0"
         }
       }
     ]
