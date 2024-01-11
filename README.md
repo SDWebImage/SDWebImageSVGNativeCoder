@@ -121,6 +121,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Screenshot
 
 <img src="https://raw.githubusercontent.com/SDWebImage/SDWebImageSVGNativeCoder/main/Example/Screenshot/SVGDemo.png" width="300" />
+<img src="https://raw.githubusercontent.com/SDWebImage/SDWebImageSVGNativeCoder/main/Example/Screenshot/SVGDemo-macOS.png" width="600" />
 
 ## Author
 

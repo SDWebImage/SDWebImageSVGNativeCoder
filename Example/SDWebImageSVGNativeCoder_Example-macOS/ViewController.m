@@ -22,12 +22,12 @@
     
     CGSize screenSize = self.view.bounds.size;
     
-    NSImageView *imageView1 = [[NSImageView alloc] init];
-    imageView1.frame = CGRectMake(0, 0, screenSize.width, screenSize.height / 2);
+    UIImageView *imageView1 = [[UIImageView alloc] init];
+    imageView1.frame = CGRectMake(0, 0, screenSize.width / 2, screenSize.height);
     imageView1.imageScaling = NSImageScaleProportionallyUpOrDown;
     
-    NSImageView *imageView2 = [[NSImageView alloc] init];
-    imageView2.frame = CGRectMake(0, screenSize.height / 2, screenSize.width, screenSize.height / 2);
+    UIImageView *imageView2 = [[UIImageView alloc] init];
+    imageView2.frame = CGRectMake(screenSize.width / 2, 0, screenSize.width / 2, screenSize.height);
     imageView2.imageScaling = NSImageScaleProportionallyUpOrDown;
     
     [self.view addSubview:imageView1];
