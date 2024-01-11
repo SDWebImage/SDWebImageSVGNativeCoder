@@ -22,7 +22,7 @@
     
     SDImageSVGNativeCoder *SVGNativeCoder = [SDImageSVGNativeCoder sharedCoder];
     [[SDImageCodersManager sharedManager] addCoder:SVGNativeCoder];
-    NSURL *svgURL = [NSURL URLWithString:@"https://d4rgq65mqvxhk.cloudfront.net/public/gift_icons/officialGift%2378548ed1-9c95-4634-b355-ca8c2a53da4f.svg"];
+    NSURL *svgURL = [NSURL URLWithString:@"https://s3-symbol-logo.tradingview.com/adobe--big.svg"];
     NSURL *svgURL2 = [NSURL URLWithString:@"https://s3-symbol-logo.tradingview.com/apple--big.svg"];
     
     CGSize screenSize = self.view.bounds.size;

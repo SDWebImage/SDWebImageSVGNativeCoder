@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321D14F22B4FE50C008F7FAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 321D14F12B4FE50C008F7FAA /* AppDelegate.m */; };
+		321D14F52B4FE50C008F7FAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321D14F42B4FE50C008F7FAA /* ViewController.m */; };
+		321D14F72B4FE50D008F7FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 321D14F62B4FE50D008F7FAA /* Assets.xcassets */; };
+		321D14FA2B4FE50D008F7FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321D14F82B4FE50D008F7FAA /* Main.storyboard */; };
+		321D14FC2B4FE50D008F7FAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 321D14FB2B4FE50D008F7FAA /* main.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,6 +27,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9EAB53ED563670F19A69BF2A /* libPods-SDWebImageSVGNativeCoder_Example-macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD915547146669BCDF3D209 /* libPods-SDWebImageSVGNativeCoder_Example-macOS.a */; };
 		A882D6E38F8117CEF475A9EC /* libPods-SDWebImageSVGNativeCoder_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CF7DEC799E3770E7FC5566 /* libPods-SDWebImageSVGNativeCoder_Tests.a */; };
 		C50B2203FB4A425F7A1B3744 /* libPods-SDWebImageSVGNativeCoder_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD4214E54E3D1222EA20A8A /* libPods-SDWebImageSVGNativeCoder_Example.a */; };
 /* End PBXBuildFile section */
@@ -37,6 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10574A43633DC0A45EFA5EE6 /* Pods-SDWebImageSVGNativeCoder_Example-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImageSVGNativeCoder_Example-macOS.release.xcconfig"; path = "Target Support Files/Pods-SDWebImageSVGNativeCoder_Example-macOS/Pods-SDWebImageSVGNativeCoder_Example-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		321D14EE2B4FE50C008F7FAA /* SDWebImageSVGNativeCoder_Example-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDWebImageSVGNativeCoder_Example-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		321D14F02B4FE50C008F7FAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		321D14F12B4FE50C008F7FAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		321D14F32B4FE50C008F7FAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		321D14F42B4FE50C008F7FAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		321D14F62B4FE50D008F7FAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		321D14F92B4FE50D008F7FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		321D14FB2B4FE50D008F7FAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		321D14FD2B4FE50D008F7FAA /* SDWebImageSVGNativeCoder_Example_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SDWebImageSVGNativeCoder_Example_macOS.entitlements; sourceTree = "<group>"; };
+		321D15012B4FE6B9008F7FAA /* SDWebImageSVGNativeCoder-Example-macOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SDWebImageSVGNativeCoder-Example-macOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 		38B849457147DBB1B7EAAC72 /* Pods-SDWebImageSVGNativeCoder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImageSVGNativeCoder_Example.release.xcconfig"; path = "Target Support Files/Pods-SDWebImageSVGNativeCoder_Example/Pods-SDWebImageSVGNativeCoder_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3BDB93D2EA345E9B655AB9F8 /* Pods-SDWebImageSVGNativeCoder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImageSVGNativeCoder_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SDWebImageSVGNativeCoder_Tests/Pods-SDWebImageSVGNativeCoder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SDWebImageSVGNativeCoder_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDWebImageSVGNativeCoder_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,7 +78,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AE974B3D45205AAB2365343 /* Pods-SDWebImageSVGNativeCoder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImageSVGNativeCoder_Example.debug.xcconfig"; path = "Target Support Files/Pods-SDWebImageSVGNativeCoder_Example/Pods-SDWebImageSVGNativeCoder_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		981AA62F0DB195F9B93345C1 /* Pods-SDWebImageSVGNativeCoder_Example-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImageSVGNativeCoder_Example-macOS.debug.xcconfig"; path = "Target Support Files/Pods-SDWebImageSVGNativeCoder_Example-macOS/Pods-SDWebImageSVGNativeCoder_Example-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		9BD4214E54E3D1222EA20A8A /* libPods-SDWebImageSVGNativeCoder_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDWebImageSVGNativeCoder_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD915547146669BCDF3D209 /* libPods-SDWebImageSVGNativeCoder_Example-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDWebImageSVGNativeCoder_Example-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A583FAADD3AB384C11D2E1CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AD26FD058960611EDB14AEFA /* SDWebImageSVGNativeCoder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SDWebImageSVGNativeCoder.podspec; path = ../SDWebImageSVGNativeCoder.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DFEC7AB2B4F3B38EA158761D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -70,6 +89,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		321D14EB2B4FE50C008F7FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAB53ED563670F19A69BF2A /* libPods-SDWebImageSVGNativeCoder_Example-macOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -102,8 +129,26 @@
 				38B849457147DBB1B7EAAC72 /* Pods-SDWebImageSVGNativeCoder_Example.release.xcconfig */,
 				3BDB93D2EA345E9B655AB9F8 /* Pods-SDWebImageSVGNativeCoder_Tests.debug.xcconfig */,
 				FA1C2839C5EDC47CCD24FDF0 /* Pods-SDWebImageSVGNativeCoder_Tests.release.xcconfig */,
+				981AA62F0DB195F9B93345C1 /* Pods-SDWebImageSVGNativeCoder_Example-macOS.debug.xcconfig */,
+				10574A43633DC0A45EFA5EE6 /* Pods-SDWebImageSVGNativeCoder_Example-macOS.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		321D14EF2B4FE50C008F7FAA /* SDWebImageSVGNativeCoder_Example-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				321D15012B4FE6B9008F7FAA /* SDWebImageSVGNativeCoder-Example-macOS-Info.plist */,
+				321D14F02B4FE50C008F7FAA /* AppDelegate.h */,
+				321D14F12B4FE50C008F7FAA /* AppDelegate.m */,
+				321D14F32B4FE50C008F7FAA /* ViewController.h */,
+				321D14F42B4FE50C008F7FAA /* ViewController.m */,
+				321D14F62B4FE50D008F7FAA /* Assets.xcassets */,
+				321D14F82B4FE50D008F7FAA /* Main.storyboard */,
+				321D14FB2B4FE50D008F7FAA /* main.m */,
+				321D14FD2B4FE50D008F7FAA /* SDWebImageSVGNativeCoder_Example_macOS.entitlements */,
+			);
+			path = "SDWebImageSVGNativeCoder_Example-macOS";
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -112,6 +157,7 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for SDWebImageSVGNativeCoder */,
 				6003F5B5195388D20070C39A /* Tests */,
+				321D14EF2B4FE50C008F7FAA /* SDWebImageSVGNativeCoder_Example-macOS */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				18817D18F20873C780B730A8 /* Pods */,
@@ -123,6 +169,7 @@
 			children = (
 				6003F58A195388D20070C39A /* SDWebImageSVGNativeCoder_Example.app */,
 				6003F5AE195388D20070C39A /* SDWebImageSVGNativeCoder_Tests.xctest */,
+				321D14EE2B4FE50C008F7FAA /* SDWebImageSVGNativeCoder_Example-macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +183,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				9BD4214E54E3D1222EA20A8A /* libPods-SDWebImageSVGNativeCoder_Example.a */,
 				F2CF7DEC799E3770E7FC5566 /* libPods-SDWebImageSVGNativeCoder_Tests.a */,
+				9DD915547146669BCDF3D209 /* libPods-SDWebImageSVGNativeCoder_Example-macOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -199,6 +247,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		321D14ED2B4FE50C008F7FAA /* SDWebImageSVGNativeCoder_Example-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 321D15002B4FE50D008F7FAA /* Build configuration list for PBXNativeTarget "SDWebImageSVGNativeCoder_Example-macOS" */;
+			buildPhases = (
+				26198DBA006C683FEA04F5CF /* [CP] Check Pods Manifest.lock */,
+				321D14EA2B4FE50C008F7FAA /* Sources */,
+				321D14EB2B4FE50C008F7FAA /* Frameworks */,
+				321D14EC2B4FE50C008F7FAA /* Resources */,
+				FE22AE6B3AA9DDC8D96EED82 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDWebImageSVGNativeCoder_Example-macOS";
+			productName = "SDWebImageSVGNativeCoder_Example-macOS";
+			productReference = 321D14EE2B4FE50C008F7FAA /* SDWebImageSVGNativeCoder_Example-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6003F589195388D20070C39A /* SDWebImageSVGNativeCoder_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "SDWebImageSVGNativeCoder_Example" */;
@@ -207,6 +274,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				1EF2BF6E32DB6C98004B8872 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,6 +314,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = dreampiggy;
 				TargetAttributes = {
+					321D14ED2B4FE50C008F7FAA = {
+						CreatedOnToolsVersion = 14.1;
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -267,11 +339,21 @@
 			targets = (
 				6003F589195388D20070C39A /* SDWebImageSVGNativeCoder_Example */,
 				6003F5AD195388D20070C39A /* SDWebImageSVGNativeCoder_Tests */,
+				321D14ED2B4FE50C008F7FAA /* SDWebImageSVGNativeCoder_Example-macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		321D14EC2B4FE50C008F7FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321D14F72B4FE50D008F7FAA /* Assets.xcassets in Resources */,
+				321D14FA2B4FE50D008F7FAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -294,6 +376,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1EF2BF6E32DB6C98004B8872 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDWebImageSVGNativeCoder_Example/Pods-SDWebImageSVGNativeCoder_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage-iOS/SDWebImage.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SDWebImage.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SDWebImageSVGNativeCoder_Example/Pods-SDWebImageSVGNativeCoder_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26198DBA006C683FEA04F5CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDWebImageSVGNativeCoder_Example-macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		57D06AB13E32D9D91C460143 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -338,9 +460,37 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FE22AE6B3AA9DDC8D96EED82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDWebImageSVGNativeCoder_Example-macOS/Pods-SDWebImageSVGNativeCoder_Example-macOS-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage-macOS/SDWebImage.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SDWebImage.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SDWebImageSVGNativeCoder_Example-macOS/Pods-SDWebImageSVGNativeCoder_Example-macOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		321D14EA2B4FE50C008F7FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321D14F52B4FE50C008F7FAA /* ViewController.m in Sources */,
+				321D14FC2B4FE50D008F7FAA /* main.m in Sources */,
+				321D14F22B4FE50C008F7FAA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,6 +520,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		321D14F82B4FE50D008F7FAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				321D14F92B4FE50D008F7FAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -397,6 +555,105 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		321D14FE2B4FE50D008F7FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981AA62F0DB195F9B93345C1 /* Pods-SDWebImageSVGNativeCoder_Example-macOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = "SDWebImageSVGNativeCoder_Example-macOS/SDWebImageSVGNativeCoder_Example_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SDWebImageSVGNativeCoder-Example-macOS-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 dreampiggy. All rights reserved.";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.SDWebImageSVGNativeCoder-Example-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		321D14FF2B4FE50D008F7FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10574A43633DC0A45EFA5EE6 /* Pods-SDWebImageSVGNativeCoder_Example-macOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = "SDWebImageSVGNativeCoder_Example-macOS/SDWebImageSVGNativeCoder_Example_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SDWebImageSVGNativeCoder-Example-macOS-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 dreampiggy. All rights reserved.";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.SDWebImageSVGNativeCoder-Example-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -551,6 +808,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		321D15002B4FE50D008F7FAA /* Build configuration list for PBXNativeTarget "SDWebImageSVGNativeCoder_Example-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321D14FE2B4FE50D008F7FAA /* Debug */,
+				321D14FF2B4FE50D008F7FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "SDWebImageSVGNativeCoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
